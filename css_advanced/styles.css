@@ -144,3 +144,70 @@ nav li a {
 
 
 
+
+/* video */
+
+.videos{
+    margin: 0 200px;
+    
+}
+.videos h2{
+    font-size: 32px;
+    font-weight: 100;
+    color: #071629;
+    text-align: center;
+    padding: 85px;
+
+}
+.videos h2 span{
+    font-weight: bold;
+    color: #C271FF;
+}
+
+.video-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.video-card{
+    position: relative;
+    padding: 15px;
+    width: 255px;
+}
+
+.video-card .overlay-img{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.video-card h3{
+    color: #071629;
+    font-weight: bold;
+    padding: 15px;
+}
+.video-card p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #828A94;
+    font-weight: 100;
+    padding: 0 15px;
+}
+.video-card .subtitle{
+    padding: 15px ;
+    display: flex;
+    height: 30px;
+}
+.video-card .subtitle h4{
+    padding: 10px 0 0 15px;
+    font-size: 14px;
+    color: #C271FF;
+    font-weight: bold;
+}
+.video-card .subtitle-bottom{
+    height: 15px;
+    padding-left:15px ;
+    display: flex;
+    justify-content: space-between;
+}
+
