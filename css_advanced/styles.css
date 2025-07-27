@@ -1,0 +1,110 @@
+body {
+    height: 1093px;
+    background-image: url(images/Object.png);
+    background-size: cover;
+    background-position: center;
+      background-repeat: no-repeat;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    margin: auto 145px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+header nav ul{
+    display: flex;
+}
+
+nav li {
+    padding: 5px 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* banner */
+
+.banner{
+    margin: 0 200px;
+}
+
+.banner .banner-head{
+    text-align: center;
+}
+
+.banner-head h1{
+    text-align: center;
+    font-size: 120px;
+    font-weight: 100;
+    color: white;
+    margin-top: 150px;
+}
+.banner-head .banner-span{
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+}
+.banner-head span{
+    padding: 20px;
+}
+.banner-head button{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 18px;
+    border-radius: 50px;
+    border: none;
+    background-color: #C271FF;
+    color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.banner .pro-cards-container{
+    padding-top: 170px;
+    text-align: center;
+}
+.banner .pro-cards-container h2{
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+}
+.banner .pro-cards-container h2 span{
+    font-weight: bold;
+    color: #C271FF;
+}
+.banner .pro-cards-container .pro-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.pro-card{
+    flex: 1;
+}
+.pro-card h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.pro-card p{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 30px;
+
+}
+.pro-cards img {
+    border-radius: 50%;
+}
+
