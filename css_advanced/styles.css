@@ -260,7 +260,6 @@ nav li a {
     line-height: 2;
 }
 
-
 .membership .membership-margin button{
     font-size: 14px;
     display: inline-block;
@@ -270,4 +269,40 @@ nav li a {
     background-color: #C271FF;
     color: white;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* FAQ */
+
+.faq{
+    padding: 65px 250px ;
+}
+.faq h2{
+    font-size: 60px;
+    font-weight: 100;
+    color: #071629;
+    text-align: center;
+}
+
+.faq-card-contanier .faq-card-subcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.faq-card-subcontainer .faq-card{
+    padding-top: 65px;
+    width: 350px;
+}
+
+.faq h3{
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #071629;
+}
+.faq .note{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #828A94;
+    font-weight: 100;
 }
