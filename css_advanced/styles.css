@@ -1,6 +1,6 @@
 body {
-    height: 1093px;
     background-image: url(images/Object.png);
+    height: 1200px;
     background-size: cover;
     background-position: center;
       background-repeat: no-repeat;
@@ -8,6 +8,7 @@ body {
         font-optical-sizing: auto;
         font-weight: weight;
         font-style: normal;
+    /* background-color: #021427; */
 }
 
 header nav {
@@ -36,7 +37,7 @@ nav li a {
 /* banner */
 
 .banner{
-    margin: 0 200px;
+    padding: 0 200px;
 }
 
 .banner .banner-head{
@@ -48,7 +49,7 @@ nav li a {
     font-size: 120px;
     font-weight: 100;
     color: white;
-    margin-top: 150px;
+    padding-top: 150px;
 }
 .banner-head .banner-span{
     color: white;
@@ -59,6 +60,7 @@ nav li a {
     padding: 20px;
 }
 .banner-head button{
+    font-size: 14px;
     display: inline-block;
     margin-top: 30px;
     padding: 18px;
@@ -86,6 +88,7 @@ nav li a {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
+    flex-wrap: wrap;
 }
 .pro-card{
     flex: 1;
@@ -112,16 +115,15 @@ nav li a {
 
 /* quote */
 .quote{
-    padding: 0 200px;
     background-color: #C271FF;
     color: white;
     font-size: 22px;
 }
 .quote .quote-margin{
+    margin: 0 200px;
     padding: 100px 0;
     display: flex;
     justify-content: space-between;
-    background-color: #C271FF;
     color: white;
     font-size: 22px;
 }
@@ -149,6 +151,7 @@ nav li a {
 
 .videos{
     margin: 0 200px;
+    padding: 85px 0;
     
 }
 .videos h2{
@@ -156,7 +159,7 @@ nav li a {
     font-weight: 100;
     color: #071629;
     text-align: center;
-    padding: 85px;
+    padding-bottom: 85px;
 
 }
 .videos h2 span{
@@ -211,3 +214,60 @@ nav li a {
     justify-content: space-between;
 }
 
+
+/* membership */
+.membership{
+    background-color: #071629;
+}
+.membership .membership-margin{
+    margin: 0 200px;
+    padding: 70px 0;
+    text-align: center;
+}
+.membership .membership-margin h2{
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+}
+.membership .membership-margin h2 span{
+    font-weight: bold;
+    color: #C271FF;
+}
+
+.membership .membership-margin .membership-card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 22px;
+    padding: 60px;
+}
+.membership .membership-margin .membership-card-container .membership-card{
+    font-size: 14px;
+    width: 200px;
+    padding: 20px;
+}
+.membership .membership-margin .membership-card-container .membership-card h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.membership .membership-margin .membership-card-container .membership-card p{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 2;
+}
+
+
+.membership .membership-margin button{
+    font-size: 14px;
+    display: inline-block;
+    padding: 18px;
+    border-radius: 50px;
+    border: none;
+    background-color: #C271FF;
+    color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
