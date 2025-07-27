@@ -108,3 +108,39 @@ nav li a {
     border-radius: 50%;
 }
 
+
+
+/* quote */
+.quote{
+    padding: 0 200px;
+    background-color: #C271FF;
+    color: white;
+    font-size: 22px;
+}
+.quote .quote-margin{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C271FF;
+    color: white;
+    font-size: 22px;
+}
+
+.quote .quote-margin .quote-item1 img{
+    height: 160px;
+}
+.quote .quote-margin .quote-item2{
+    line-height: 1.6;
+    flex: 1;
+    padding: 0 30px;
+}
+.quote .quote-margin .quote-item2 h3{
+    padding-top: 20px;
+    font-weight: bold;
+}
+.quote .quote-margin .quote-item2 p{
+    font-style: italic;
+}
+
+
+
