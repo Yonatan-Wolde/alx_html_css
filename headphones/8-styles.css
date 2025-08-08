@@ -39,6 +39,7 @@ body{
 
 .container{
     max-width: 1000px;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
@@ -185,9 +186,10 @@ li a:hover{
     flex-wrap: wrap;
     justify-content: center;
 }
-.whatwedo-item{
-    width: 200px;
-    padding: 100px 25px 20px 25px;
+.whatwedoitem{
+    width: 190px;
+    padding: 40px 20px 20px 20px;
+    margin: 60px 5px 0px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,14 +198,17 @@ li a:hover{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;    
 }
-.whatwedo-item:hover {
+.whatwedoanimate {
   transform: scale(1.05) rotate(-1deg);
   animation: pulse 0.6s ease-in-out;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+.spin {
+  animation: spin 500ms linear infinite;
+}
 
 
-.whatwedo-item h3{
+.whatwedoitem h3{
     padding: 32px 0 20px 0;
 }
 
@@ -227,14 +232,14 @@ li a:hover{
     flex-wrap: wrap;
     justify-content: center;
 }
-.ourresults-item{
+.ourresultsitem{
     /* background-image: url(assets/images/pentagone.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; */
 
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
     margin: 100px 25px 0 25px;
 
     background-color: #ff5c5c;
@@ -255,18 +260,20 @@ li a:hover{
     transition: transform 0.3s ease, background-color 0.3s ease;
     cursor: pointer;    
 }
-.ourresults-item:hover {
+
+/* touch for mobile and tablet */
+.ourresultsanimate {
   transform: scale(1.1);
   animation: bounce 0.5s ease;
-  background-color: rgba(0, 0, 0, 0.03); /* Optional subtle bg on hover */
+  background-color: rgba(255, 101, 101, 0.5); 
 }
 
 
-.ourresults-item h3{
+.ourresultsitem h3{
     font-size: 46px;
     padding: 0 0 0 0;
 }
-.ourresults-item p{
+.ourresultsitem p{
     font-size: 14px;
     padding: 15px 0 32px 0;
 }
@@ -400,12 +407,36 @@ footer span:hover {
   }
 }
 
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
 
+
+
+
+
+/* tablet friendly */
+@media (max-width:1200px) {
+    
+    header .container{
+    height: 100vh;
+}
+
+    .container{
+    height: auto;
+}
+
+}
 
 
 
 /* mobile friendly */
 @media (max-width: 480px) {
+
+header .container{
+height: auto;
+}
 
 nav{
     position: relative;
@@ -463,6 +494,11 @@ li a{
 }
 footer .container{
     padding-top: 60px;
+}
+.socials{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
 }
 
 }
